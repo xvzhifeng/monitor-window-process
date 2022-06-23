@@ -1,0 +1,1 @@
+start python G:\code\python\monitor-winodws-process\bin\main.py node.exe 2 bat_path
