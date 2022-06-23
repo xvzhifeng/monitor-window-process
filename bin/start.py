@@ -8,4 +8,4 @@ def start(args):
             process.kill_process_name(args[1])
             bat.bat_start(args[3])
             print("重启成功")
-        time.sleep(1000)
+        time.sleep(300)
