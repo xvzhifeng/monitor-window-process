@@ -19,7 +19,7 @@ def get_info_name(name):
 def get_count_process(name):
     count = 0
     for proc in psutil.process_iter():
-        print(proc.name())
+        # print(proc.name())
         if proc.name() == name:
             count+=1
     print(count)
